@@ -4,8 +4,9 @@ import { Http } from '@angular/http';
 
 @Injectable()
 export class EntryService {
+
   constructor(private http: Http) {
-    
+
   }
 
   getEntries(): Promise<Entry[]> {
